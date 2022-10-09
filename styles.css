@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(33, 30, 30);
+    color: white;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    float: 0 auto;
+    margin: 20px 8px 8px 8px;
+    padding-right: 3px;
+    font-size: 20px;
+}
+
+nav{
+    padding: 10px 5px 5px 1000px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(109, 105, 105);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+a:hover{
+    color: blue;
+}
+
+.fa-solid{
+    cursor: pointer;
+}
+
+.fa-solid:hover{
+    color: blue;
+}
+
+.fa-regular{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fa-regular:hover{
+    color: blue;
+}
+
+.fa-brands{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fa-brands:hover{
+    color: blue;
+}
+
+.b-container{
+    display: flex;
+    margin: 90px 280px 90px 250px;
+}
+
+#dot{
+    color: rgb(43, 214, 226);
+}
+
+.describe{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 3px;
+}
+
+.greeting{
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+
+.greet2{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.photo img{
+    width: 450px;
+    height: 420px;
+    border-radius: 100%;
+}
+
+hr{
+    width: 1050px;
+    background-color: blue;
+}
+
+.intro{
+    font-size: 20px;
+    padding: 20px 200px 20px 200px;
+}
+
+p.intro{
+    font-family: 'Sora', sans-serif;
+}
+
+.inspiring{
+    margin: 20px;
+    padding: 10px;   
+}
+
+.list2{
+    font-size: 25px;
+    color: lightblue;
+    padding-left: 500px;
+    padding-right: 100px;
+}
+
+.project{
+    padding: 20px 200px 20px 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.project img{
+    width: 800px;
+    height: 620px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.form{
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.form table{
+    padding: 25px;
+    width: 500px;
+}
+
+#links td{
+    border: 1px solid white;
+}
+
+#links{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+footer{
+    background-color: rgb(44, 44, 50);
+    padding: 30px;
+}
+
+footer p{
+    text-align: center;
+}
