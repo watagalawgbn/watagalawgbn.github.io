@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Personal Website.</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2117ae537b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap" rel="stylesheet">
+
+    <script>
+        function validateForm() {
+            let message1 = document.forms["myForm"]["name"].value;
+            let message2 = document.forms["myForm"]["message"].value;
+            let message3 = document.forms["myForm"]["email"].value;
+            if (message1 == "") {
+                alert("Name must be filled out!");
+                return false;
+            }
+            if (message2 == "") {
+                alert("Message must be filled out!");
+                return false;
+            }
+            if (message3 == "") {
+                alert("Email must be filled out!");
+                return false;
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <i class="fa-solid fa-magnifying-glass"></i>&nbsp;
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>&nbsp;&nbsp;
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>&nbsp;
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="b-container">
+        <div class="hello">
+            <p class="greeting">Hello, it's me <br></p>
+            <p class="greet2"> Buddhini.</p>
+            <p class="describe">
+                A 21 years old IT student currently pursuing an Information Technology and Management degree at the <a
+                    href="https.uom.lk">University Of Moratuwa</a> with career interests in tech, sports, and music.
+            </p>
+        </div>
+        <div class="photo"><img src="buddhi.jpg"></div>
+    </div>
+
+    <hr>
+
+    <div class="intro">
+        <h3>Intro</h3>
+        <p class="intro">I was born and raised in Colombo where i grew up in the Kesbewa and always had good music
+            around me. My family is my biggest inspiration of my life.
+            I am currently at my first year in the University Of Moratuwa.
+        </p>
+    </div>
+
+    <div class="inspiring">
+        <h1>An inspirational quotes...</h1>
+        <ul class="list2" style="list-style-type: disc;">
+            <li> "You don't need to see the whole staircase, just take the first step." <br> <small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Martin Luther King
+                    Jr -</small> </li>
+            <li>"Bloom where you are planted."<br><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Anonymous -</small></li>
+        </ul>
+    </div>
+
+    <div class="project">
+        <h1>My projects:</h1>
+        <h3>Currently working on a "Shilpasara" project to help the students who are facing to O/L examination. It is
+            organized by LEo club of University Of Moratuwa.</h3>
+        <img src="project-pic.jpg">
+    </div>
+
+    <div class="form">
+        <h1>CONTACT ME</h1>
+        <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+            <table class="formT" frame="box">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Message</td>
+                    <td><textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+    <footer>
+            <table id="links">
+                <tr>
+                    <td>University Of Moratuwa</td>
+                    <td><a href="https://uom.lk/">Click here</a></td>
+                </tr>
+                <tr>
+                    <td>LEO club</td>
+                    <td><a href="https://underconstruction.uomleos.org/">Click here</a></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Emails</td>
+                    <td>To me: buddhiniwatagala01@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>To UOM: info [AT] uom.lk</td>
+                </tr>
+            </table>
+            <p>Designed By bnw.</p>
+    </footer>
+
+
+</html>
